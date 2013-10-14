@@ -31,7 +31,7 @@ directly before test is going to be run. Example:
 4) To receive alerts after each test has completed:
 
 - Modify minitest/unit.rb file.
-- Must use sudo in order to modify the file: $ sudo subl unit.rb
+- May have to use sudo in order to modify the file: $ sudo subl unit.rb
 - Add speaker code directly into minitest/unit.rb file, around line 1219 in the after_teardown hook:
 
              def after_teardown;
