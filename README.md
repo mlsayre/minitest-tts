@@ -30,7 +30,7 @@ directly before test is going to be run. Example:
 
 4) To receive alerts after each test has completed:
 
-- Modify minitest/unit.rb file.
+- Modify minitest/unit.rb file. (somewhere around this directory: ~/.rvm/gems/ruby-2.0.0-p247@rails3/gems/minitest-4.7.5/lib/minitest)
 - May have to use sudo in order to modify the file: $ sudo subl unit.rb
 - Add speaker code directly into minitest/unit.rb file, around line 1219 in the after_teardown hook:
 
